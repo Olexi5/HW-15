@@ -1,0 +1,33 @@
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item:nth-child(1){
+    background-color: tomato;
+    order: -1;
+    flex-basis: calc((100%) / 2);
+    text-align: center;
+}
+.item:nth-child(2){
+    background-color:cadetblue;
+    order: 1;
+    flex-basis: calc((100%) / 3);
+    text-align: center;
+}
+.item:nth-child(3){
+    background-color:blueviolet;
+    flex-basis: calc((100%) / 3);
+    text-align: center;
+}
+.item:nth-child(4){
+    background-color:darkgreen;
+    order: 1;
+    flex-basis: calc((100%) / 3);
+    text-align: center;
+}
+.item:nth-child(5){
+    background-color:darksalmon;
+    order: -1;
+    flex-basis: calc((100%) / 2);
+    text-align: center;
+}
